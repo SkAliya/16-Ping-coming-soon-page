@@ -1,0 +1,14 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap'); */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 300,600,700 */
+/* AUTHOR */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: var(--primary-color);
+}
