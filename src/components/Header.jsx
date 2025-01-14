@@ -1,13 +1,14 @@
 function Header() {
   return (
     <header>
-      <h2 className="text-red-500">
-        ping<span className="dot">.</span>
+      <h2 className="text-color-dark-blu mb-8 text-3xl font-bold uppercase md:text-4xl">
+        ping<span className="text-primary-color">.</span>
       </h2>
-      <h1>
-        We are launching <span className="highlight">sonn!</span>
+      <h1 className="mb-4 text-4xl font-extralight tracking-normal text-color-gray-light md:text-5xl">
+        We are launching{' '}
+        <span className="font-bold text-color-dark-blue">soon!</span>
       </h1>
-      <p className="subscription">Subscribe and get notified</p>
+      <p className="md:text-exlg mb-6">Subscribe and get notified</p>
     </header>
   );
 }

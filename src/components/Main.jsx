@@ -1,4 +1,4 @@
-import pic from "./illustration-dashboard.png";
+import pic from './illustration-dashboard.png';
 
 function Main() {
   // return (
@@ -6,7 +6,7 @@ function Main() {
   //   // <div style={{ height: "500px", width: "500px" }}>
   //   // </div>
   // );
-  return <img src={pic} alt="illustration" />;
+  return <img src={pic} alt="illustration" className="mx-auto my-20 h-96" />;
 }
 
 export default Main;
