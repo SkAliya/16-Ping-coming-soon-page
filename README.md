@@ -28,7 +28,7 @@ This is a solution to the [Ping-coming-soon-page -challenge on Frontend Mentor](
 
 <h2 align="center">Links</h2>
 
-- Solution URL: [Ping-coming-soon-page-solution | Frontend Mentor](https://www.frontendmentor.io/solutions/nice-article-card---built-with-react-JCNqb1ukQn)
+- Solution URL: [Ping-coming-soon-page-solution | Frontend Mentor](https://www.frontendmentor.io/solutions/nice-email-validation-check-challenge-nksxJ8hloM)
 - Live Site URL: [https://skaliya.github.io/16-Ping-coming-soon-page/](https://skaliya.github.io/16-Ping-coming-soon-page/)
 
 <br>
