@@ -1,8 +1,9 @@
-import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react";
-import eslint from "vite-plugin-eslint";
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+import eslint from 'vite-plugin-eslint';
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/16-Ping-coming-soon-page',
   plugins: [react(), eslint()],
 });

@@ -1,14 +1,13 @@
 {
-  "home": "https://skaliya.github.io/16-Ping-coming-soon-page",
   "name": "ping-coming-soon-page",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
+    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
