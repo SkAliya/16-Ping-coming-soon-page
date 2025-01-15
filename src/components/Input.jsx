@@ -30,7 +30,7 @@ function Input() {
     >
       <input
         name="email"
-        className={`w-[300px] grow rounded-full border border-color-input-field px-4 py-2.5 text-sm outline-none placeholder:text-color-input-field focus:border-primary-color focus:caret-primary-color sm:w-[450px] sm:px-6 sm:py-3.5 sm:text-lg ${errorMessage ? 'border-color-error-message' : ''}`}
+        className={`w-[300px] grow rounded-full border border-color-input-field px-4 py-2.5 text-sm outline-none placeholder:text-color-input-field focus:border-primary-color focus:caret-primary-color sm:w-[450px] sm:px-6 sm:py-3.5 sm:text-lg ${errorMessage ? ' border-color-error-message' : ''}`}
         placeholder="Your email address..."
         value={email}
         onChange={(e) => setEmail(e.target.value)}
