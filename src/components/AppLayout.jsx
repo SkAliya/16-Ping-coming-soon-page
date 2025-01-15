@@ -5,7 +5,7 @@ import Footer from './Footer';
 
 function AppLayout() {
   return (
-    <div className="flex h-dvh flex-col items-center justify-center text-center">
+    <div className="flex flex-col items-center justify-center p-10 text-center">
       <Header />
       <Input />
       <Main />
