@@ -42,7 +42,7 @@ function Footer() {
         </Button>
       </div>
       <p className="text-lg text-color-gray-light">
-        &copy; Copyright Ping. All rights reserved.
+        &copy; Copyright {new Date().getFullYear()} Ping. All rights reserved.
       </p>
     </div>
   );

@@ -2,13 +2,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-/* 300,600,700 */
-/* AUTHOR */
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: var(--primary-color);
-}
